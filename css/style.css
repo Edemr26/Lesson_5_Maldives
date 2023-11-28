@@ -1,6 +1,62 @@
 /* &display=swap&subset=cyrillic-ext */
 
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,100;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+
+@font-face {
+	font-family: 'Linux Libertine Display O';
+	src: url('../fonts/LinLibertineDisplayO.woff2') format('woff2'),
+		url('../fonts/LinLibertineDisplayO.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Linux Libertine O';
+	src: url('../fonts/LinLibertineDisplayO.woff2') format('woff2'),
+		url('../fonts/LinLibertineOB.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Times';
+	src: url('../fonts/TimesGothic.woff2') format('woff2'),
+		url('../fonts/TimesGothic.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Serif Pro';
+	src: url('../fonts/SourceSerifPro-Black.woff2') format('woff2'),
+		url('../fonts/SourceSerifPro-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Serif Pro';
+	src: url('../fonts/SourceSerifPro-ExtraLight.woff2') format('woff2'),
+		url('../fonts/SourceSerifPro-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Source Serif Pro';
+	src: url('../fonts/SourceSerifPro-Bold.woff2') format('woff2'),
+		url('../fonts/SourceSerifPro-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -54,4 +110,49 @@ body {
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	padding: 20px 24px 20px 24px;
+	line-height: 1.6;
+
+}
+
+h1 {
+	font-size: 1.8em;
+	border-bottom: 1px solid rgb(25, 24, 25);
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	font-family: 'Linux Libertine Display O';
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+a:hover {
+	background: rgb(134, 161, 151);
+	color: aqua;
+}
+
+a,
+sup {
+	color: blue;
+}
+
+p {
+	margin: 7px 0;
+}
+
+.image {
+	background: rgba(199, 194, 204, 0.3);
+	float: right;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid rgba(171, 171, 171, 0.608);
+}
+
+.Flag {
+	max-height: 107px;
+}
+.Population{
+	display: inline;
+	margin: 10px;
 }
