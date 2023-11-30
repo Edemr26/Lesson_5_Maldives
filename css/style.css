@@ -31,7 +31,7 @@
 }
 
 @font-face {
-	font-family: 'Source Serif Pro';
+	font-family: 'Source Serif Pro1';
 	src: url('../fonts/SourceSerifPro-Black.woff2') format('woff2'),
 		url('../fonts/SourceSerifPro-Black.woff') format('woff');
 	font-weight: 900;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-	font-family: 'Source Serif Pro';
+	font-family: 'Source Serif Pro2';
 	src: url('../fonts/SourceSerifPro-ExtraLight.woff2') format('woff2'),
 		url('../fonts/SourceSerifPro-ExtraLight.woff') format('woff');
 	font-weight: 200;
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-	font-family: 'Source Serif Pro';
+	font-family: 'Source Serif Pro3';
 	src: url('../fonts/SourceSerifPro-Bold.woff2') format('woff2'),
 		url('../fonts/SourceSerifPro-Bold.woff') format('woff');
 	font-weight: bold;
@@ -128,13 +128,12 @@ h1 {
 }
 
 a:hover {
-	background: rgb(134, 161, 151);
-	color: aqua;
+	background: rgb(75, 82, 79);
+	color: rgb(84, 245, 245);
 }
 
-a,
-sup {
-	color: blue;
+a {
+	color: rgb(20, 20, 176);
 }
 
 p {
@@ -152,7 +151,57 @@ p {
 .Flag {
 	max-height: 107px;
 }
-.Population{
+
+.Population {
 	display: inline;
 	margin: 10px;
+}
+
+.Content {
+	border: dotted 1px rgb(79, 66, 66);
+	max-width: 400px;
+	min-height: 900px;
+	background-color: #f8f9fa;
+}
+
+.Content h2 {
+	text-align: center;
+}
+
+ul {
+	padding: 7px;
+}
+
+li {
+	color: #0645ad;
+	font-family: 'Source Serif Pro3';
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Linux Libertine O';
+	font-size: 1.5em;
+	border-bottom: 1px solid rgb(25, 24, 25);
+}
+
+.subtitleFlora {
+	font-style: italic;
+	font-family: sans-serif;
+	display: inline;
+	padding: 11px;
+}
+
+.List {
+	color: #a55858;
+}
+
+.figura_Flora {
+	width: 225px;
+	float: right;
+	height: 170px;
 }
