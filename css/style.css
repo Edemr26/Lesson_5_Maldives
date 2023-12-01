@@ -200,8 +200,30 @@ h2 {
 	color: #a55858;
 }
 
+.Flora a {
+	font-weight: 700;
+}
+
 .figura_Flora {
-	width: 225px;
+	background: #efeaea;
 	float: right;
-	height: 170px;
+	text-align: center;
+	border: 1px solid rgba(120, 112, 112, 0.3);
+	padding: 10px;
+	margin: 2px;
+}
+
+.Titan {
+	max-width: 225px;
+}
+
+.Families {
+	background: #a5b1c4;
+	border: 5px dashed;
+	padding: 10px 50px;
+	margin: 0 auto;
+	overflow: auto;
+	width: 600px;
+	height: 200px;
+
 }
